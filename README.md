@@ -66,8 +66,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-## clear
+## clearの方法
 
 php artisan config:clear
 
 php artisan cache:clear
+
+## リンク作成(プロフィール画像)
+
+php artisan storage:link
+
+php artisan migrate:fresh
+
+.envのAPP_URLを変更
+
+APP_URL=http://127.0.0.1:8000
